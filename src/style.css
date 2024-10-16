@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+#ulVeiculos img {
+  width: 300px; 
+  height: auto;
+}
+#ulVeiculos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#ulVeiculos li {
+    display: flex;
+    align-items: center;
+    margin: 10px; 
+}
+.veiculo-imagem {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px;
+}
